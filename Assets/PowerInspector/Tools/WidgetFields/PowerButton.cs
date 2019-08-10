@@ -7,9 +7,12 @@ namespace PowerInspector
     [System.Serializable]
     public class PowerButton : PowerWidget
     {
-        public string button { get; private set; }
-        public string handler { get; private set; }
-        public float height { get; private set; }
+        [System.NonSerialized]
+        public string button;
+        [System.NonSerialized]
+        public string handler;
+        [System.NonSerialized]
+        public float height;
 
         public PowerButton(string button, string handler)
         {

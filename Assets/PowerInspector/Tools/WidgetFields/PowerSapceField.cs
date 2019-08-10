@@ -7,7 +7,8 @@ namespace PowerInspector
     [System.Serializable]
     public class PowerSpaceField : PowerWidget
     {
-        public float height { get; private set; }
+        [System.NonSerialized]
+        public float height;
 
         public PowerSpaceField(float height)
         {

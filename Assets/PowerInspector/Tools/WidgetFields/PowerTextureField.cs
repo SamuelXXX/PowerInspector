@@ -7,11 +7,14 @@ namespace PowerInspector
     [System.Serializable]
     public class PowerTextureField : PowerWidget
     {
-        public string link { get; private set; }
-        public float heightRatio { get; private set; }
-        public ScaleMode scaleMode { get;private set; }
+        [System.NonSerialized]
+        public string link;
+        [System.NonSerialized]
+        public float heightRatio;
+        [System.NonSerialized]
+        public ScaleMode scaleMode;
 
-        public PowerTextureField(string link,float heightRatio,ScaleMode scaleMode=ScaleMode.ScaleToFit)
+        public PowerTextureField(string link, float heightRatio, ScaleMode scaleMode = ScaleMode.ScaleToFit)
         {
             this.link = link;
             this.heightRatio = heightRatio;

@@ -13,11 +13,11 @@ namespace PowerInspector.Example
         /// <summary>
         /// Put a texture in inspector
         /// </summary>
-        public PowerTextureField anotherLogo = new PowerTextureField("logo", 0.3f, ScaleMode.ScaleAndCrop);
+        public PowerTextureField anotherLogo = new PowerTextureField("PowerInspectorLogo", 0.3f, ScaleMode.ScaleAndCrop);
         /// <summary>
         /// Put a button in inspector with button name and button callback name
         /// </summary>
-        public PowerButton exampleButton = new PowerButton("Example Button", "OnButtonPressed", 30f);
+        public PowerButton exampleButtons = new PowerButton("Example Button", "OnButtonPressed", 80f);
 
         void OnButtonPressed()
         {
