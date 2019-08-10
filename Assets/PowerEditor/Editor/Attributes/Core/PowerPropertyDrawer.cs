@@ -143,6 +143,7 @@ namespace PowerEditor.Editor
             if (ppa is HideWhenTrueAttribute)
             {
                 HideWhenTrueAttribute hwt = ppa as HideWhenTrueAttribute;
+
                 SerializedProperty sp = serializedObject.FindProperty(hwt.condition);
                 if (sp == null || sp.propertyType != SerializedPropertyType.Boolean)
                 {
