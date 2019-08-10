@@ -1,0 +1,17 @@
+{
+    "name": "PowerInspector.Editor",
+    "references": [
+        "GUID:6facf80a434a53540a40228a4a796a35"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

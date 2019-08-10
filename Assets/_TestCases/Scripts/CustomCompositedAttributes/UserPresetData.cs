@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
-using PowerEditor.Editor;
+using PowerInspector.Editor;
 #endif
-using PowerEditor;
+using PowerInspector;
 
 [ColorTheme("Dark")]
 [PresetData]

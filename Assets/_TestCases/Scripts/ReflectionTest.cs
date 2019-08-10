@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
-using PowerEditor.Editor;
+using PowerInspector.Editor;
 
 [System.Serializable]
 public class Class1
@@ -53,7 +53,7 @@ public class ReflectionTest : MonoBehaviour
     [ContextMenu("GetReflectionValue")]
     void GetReflectionValue()
     {
-        object v = PowerEditorUtility.GetFieldObjectRecursively(this, valuePath);
+        object v = PowerInspectorUtility.GetFieldObjectRecursively(this, valuePath);
         if (v != null)
         {
             Debug.Log($"Check succeed!{v.ToString()}");
@@ -67,7 +67,7 @@ public class ReflectionTest : MonoBehaviour
     [ContextMenu("ReflectionMethodCall")]
     void ReflectionMethodCall()
     {
-        PowerEditorUtility.InvokeMethodRecursively(this, methodPath);
+        PowerInspectorUtility.InvokeMethodRecursively(this, methodPath);
     }
 
 }

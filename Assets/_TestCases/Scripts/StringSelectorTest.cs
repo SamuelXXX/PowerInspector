@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PowerEditor;
+using PowerInspector;
 
 [System.Serializable]
 public class Element

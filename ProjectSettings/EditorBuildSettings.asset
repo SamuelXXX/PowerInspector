@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PowerEditor/Examples/Example.unity
+    path: Assets/PowerInspector/Examples/Example.unity
     guid: 5eb47687905690548a487830d1f48d6b
   m_configObjects: {}
